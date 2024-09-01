@@ -21,9 +21,11 @@ const SearchOutput = (props) => {
                 return (
                     <SearchResult
                         key={index}
-                        title={result.title}
-                        authors={result.authors}
-                        link={result.link}
+                        Phone={result.phone}
+                        Valid={[result.valid]}
+                        Location={[result.location]}
+                        Type={[result.type]}
+                        Carrier={[result.carrier]}
                     />
                 );
             })

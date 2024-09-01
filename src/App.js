@@ -32,9 +32,10 @@ function App() {
             })
             .then(data => {
                     const results = [];
-                    data.forEach(datum => {
-                        results.push(datum)
-                    });
+                    console.log(data);
+
+                    results.push(data);
+
                     setOutput(results);
             }, (error) => {
                 console.log(error);
@@ -50,6 +51,7 @@ function App() {
             </header>
             <main>
                 <SearchInput submitHandler={searchHandler}/>
+
                 <SearchOutput term={input} results={output}/>
             </main>
             <footer>
