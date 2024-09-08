@@ -19,7 +19,7 @@ const SearchInput = props => {
         <section className={classes.Search}>
             <div>
                 <form onSubmit={submitHandler} className={classes.SearchInput}>
-                    <input autoFocus name="query" type="text" value={searchTerm} onChange={inputHandler} placeholder='  Enter search term'/>
+                    <input autoFocus name="query" type="text" value={searchTerm} onChange={inputHandler} placeholder='  Enter a phone number'/>
                     <button type="submit">Search</button>
                 </form>
             </div>

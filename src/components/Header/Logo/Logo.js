@@ -5,7 +5,6 @@ import logo from './img/LeagueLogo.png';
 
 const Logo = () => (
     <div className={classes.Logo}>
-        <a href="https://www.jointheleague.org/" target="_blank" rel="noopener noreferrer"><img src={logo} alt="The League of Amazing Programmers Logo" /></a>
         <h3 className={classes.LeagueClassName}>{properties.courseName}</h3>
     </div>
 );

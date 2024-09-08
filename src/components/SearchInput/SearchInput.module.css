@@ -10,7 +10,7 @@
 
 .SearchInput input {
     font: inherit;
-    border: 1px solid #f26522;
+    border: 1px solid #0294FF;
     border-radius: 15px 0 0 15px;
     padding: 0.15rem 1rem;
     height: 2em;
@@ -19,14 +19,14 @@
 
 .SearchInput button {
     padding: .8em 1em 1.75em;
-    background: #f26522;
-    border: 2px solid #f26522;
+    background: #0294FF;
+    border: 2px solid #0294FF;
     height:2.9em;
 }
 
 .SearchInput input:focus {
     outline: none;
-    border-color: #ff2058;
+    border-color: #78C4FB;
 }
 
 @media (min-width: 768px) {
